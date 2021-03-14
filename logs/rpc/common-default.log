@@ -1,0 +1,4 @@
+2021-03-14 15:55:07,546 INFO  main                             - sofa rpc run.mode = NORMAL
+2021-03-14 15:55:07,547 INFO  main                             - PID:17308 sofa rpc starting!
+2021-03-14 15:55:07,549 INFO  main                             - the run.mode is NORMAL
+2021-03-14 15:55:07,557 INFO  main                             - the ldc run env is: zone is,zone=null,datacenter=null,zmode=false,strictMode=null

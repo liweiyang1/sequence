@@ -1,0 +1,2 @@
+2021-03-14 15:55:07,134 INFO  02;1ms;DEFAULT_ZONE;;Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config.publishConfig,version=3.0@DRM;Z43H586XPGAA;-1;;;;0;
+2021-03-14 15:55:07,491 INFO  02;0ms;DEFAULT_ZONE;;Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config.routeConfig,version=3.0@DRM;Z43H586XPGAA;-1;;;;0;

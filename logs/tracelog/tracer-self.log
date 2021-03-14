@@ -1,0 +1,3 @@
+2021-03-14 15:54:44.995[INFO]  LOG_FILE_DIR is ./logs\tracelog
+2021-03-14 15:55:10.481[WARN]  biz-stat.log configured stat_log_interval=60 second and default cycle=60
+2021-03-14 15:55:10.606[WARN]  resttemplate-stat.log configured stat_log_interval=60 second and default cycle=60

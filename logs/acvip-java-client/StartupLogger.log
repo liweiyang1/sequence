@@ -1,0 +1,6 @@
+[2021-03-14 15:54:45,825][INFO][main][c.a.a.c.l.StartupLogger] - ================== Init started ==================
+[2021-03-14 15:54:50,485][INFO][main][c.a.a.c.l.StartupLogger] - Loaded local nameList, size is 0
+[2021-03-14 15:55:00,492][INFO][main][c.a.a.c.l.StartupLogger] - Loaded local zoneInfoList([]) from disk, localZone=null
+[2021-03-14 15:55:00,493][INFO][main][c.a.a.c.l.StartupLogger] - ExtensionParamsCache inited
+[2021-03-14 15:55:00,515][INFO][main][c.a.a.c.l.StartupLogger] - [VipServerHttpSynchronizer] Started.
+[2021-03-14 15:55:00,517][INFO][main][c.a.a.c.l.StartupLogger] - ================== Init done (elapsed 14691ms). ==================

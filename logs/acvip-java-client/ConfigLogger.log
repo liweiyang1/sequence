@@ -1,0 +1,16 @@
+[2021-03-14 15:54:45,826][INFO][main][c.a.a.c.l.ConfigLogger] - Print AntVipClient(version:1.0.7) configure values:
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - diskCacheEnable=true
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - diskStoreDir=C:\Users\11629\conf/acvip-java-client-cache\
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - requestTimeoutMs=500
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - appName=AntVipDefaultAppName
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - datacenter=null
+[2021-03-14 15:54:45,827][INFO][main][c.a.a.c.l.ConfigLogger] - instanceId=Z43H586XPGAA
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - sharedMiddlewareInstanceId=000001
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - endPoint=50.2.0.129
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - accessKey=null
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - accessSecret=null
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - trFrom=java-client
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - version=1.0.7
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - drmEnable=false
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - drmControl=DrmControl{mainSwitch=true, allAvailable=false, waitServerListTimeoutMs=2000, printStatInfoIntervalSec=60, restrainEnable=false, restrainStrategy='*:50|-1|50', restrainStrategies={*=DefaultRestrainStrategy{rangeToPercents=[RangeToPercent{min=50, max=2147483647, percent=50}]}}}
+[2021-03-14 15:54:45,828][INFO][main][c.a.a.c.l.ConfigLogger] - drmSyncControl=DrmSyncControl{disableSync=false, checkIntervalWhenDisableSync=5, noAvailableServerCheckIntervalSeconds=5, ioErrorIntervalSeconds=1, successParkIntervalMs=500, unknownErrorIntervalSeconds=5, responseExceptionIntervalSeconds=3}

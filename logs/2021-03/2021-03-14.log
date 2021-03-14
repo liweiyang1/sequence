@@ -1,0 +1,140 @@
+2021-03-14 15:54:45.658  INFO  [,] ---- Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 50.2.0.129 into System
+2021-03-14 15:54:45.661  INFO  [,] ---- Not find key com.alipay.env in Java -D argument, put value shared into System
+2021-03-14 15:54:45.661  INFO  [,] ---- Not find key com.alipay.instanceid in Java -D argument, put value Z43H586XPGAA into System
+2021-03-14 15:55:07.595  INFO  [,] ---- Starting SequenceApplication on LAPTOP-H9LBDCGL with PID 17308 (C:\Users\11629\Desktop\cc\seq\2021_03_10\coding\product-sequence\target\classes started by 11629 in C:\Users\11629\Desktop\cc\seq\2021_03_10\coding)
+2021-03-14 15:55:07.596  INFO  [,] ---- No active profile set, falling back to default profiles: default
+2021-03-14 15:55:10.409  INFO  [,] ---- Bean 'com.alipay.sofa.boot.autoconfigure.tracer.TracerAnnotationAutoConfiguration' of type [com.alipay.sofa.boot.autoconfigure.tracer.TracerAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$550af01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.425  INFO  [,] ---- Bean 'com.alipay.sofa.boot.autoconfigure.tracer.SofaTracerAutoConfiguration' of type [com.alipay.sofa.boot.autoconfigure.tracer.SofaTracerAutoConfiguration$$EnhancerBySpringCGLIB$$1d891499] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.454  INFO  [,] ---- Bean 'com.alipay.sofa.tracer-com.alipay.sofa.tracer.boot.properties.SofaTracerProperties' of type [com.alipay.sofa.tracer.boot.properties.SofaTracerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.491  INFO  [,] ---- Bean 'tracer' of type [com.alipay.sofa.tracer.plugin.flexible.FlexibleTracer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.500  INFO  [,] ---- Bean 'sofaMethodInvocationProcessor' of type [com.alipay.sofa.tracer.boot.flexible.processor.SofaTracerMethodInvocationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.501  INFO  [,] ---- Bean 'sofaTracerIntroductionInterceptor' of type [com.alipay.sofa.tracer.boot.flexible.processor.SofaTracerIntroductionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.600  INFO  [,] ---- Bean 'com.alipay.sofa.boot.autoconfigure.tracer.SofaTracerRestTemplateAutoConfiguration' of type [com.alipay.sofa.boot.autoconfigure.tracer.SofaTracerRestTemplateAutoConfiguration$$EnhancerBySpringCGLIB$$425aed0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:10.609  INFO  [,] ---- Bean 'sofaTracerRestTemplateEnhance' of type [com.alipay.sofa.tracer.boot.resttemplate.SofaTracerRestTemplateEnhance] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-14 15:55:11.087  INFO  [,] ---- Tomcat initialized with port(s): 8001 (http)
+2021-03-14 15:55:11.119  INFO  [,] ---- Initializing ProtocolHandler ["http-nio-8001"]
+2021-03-14 15:55:11.147  INFO  [,] ---- Starting service [Tomcat]
+2021-03-14 15:55:11.147  INFO  [,] ---- Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-14 15:55:11.470  INFO  [,] ---- Initializing Spring embedded WebApplicationContext
+2021-03-14 15:55:11.470  INFO  [,] ---- Root WebApplicationContext: initialization completed in 3797 ms
+2021-03-14 15:55:12.207  INFO  [,] ---- 开始获取redis序列
+2021-03-14 15:55:12.210  INFO  [,] ---- redis序列关闭
+2021-03-14 15:55:12.210  INFO  [,] ---- 获取redis序列成功
+2021-03-14 15:55:12.230  INFO  [,] ---- Zero ID Gen Service Init Successfully
+2021-03-14 15:55:12.232  INFO  [,] ---- springContextUtil initialize
+2021-03-14 15:55:13.572  INFO  [,] ---- machine info hostname:LAPTOP-H9LBDCGL ,ip:192.168.0.103 ,mac:00-05-9A-3C-7A-00
+2021-03-14 15:55:34.684 ERROR  [,] ---- Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:844)
+	at com.bank.sequence.service.impl.SnowflakeGenerateIdServiceImpl.init(SnowflakeGenerateIdServiceImpl.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1839)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at com.alipay.sofa.sequence.start.SequenceApplication.main(SequenceApplication.java:34)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1036)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2232)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:154)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:145)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 28 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	... 49 common frames omitted
+2021-03-14 15:55:34.686  WARN  [,] ---- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'snowGener' defined in class path resource [static/applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: workerId初始化异常！
+2021-03-14 15:55:34.697  INFO  [,] ---- Stopping service [Tomcat]
+2021-03-14 15:55:34.706  WARN  [,] ---- The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-03-14 15:55:34.736  INFO  [,] ---- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-14 15:55:34.769 ERROR  [,] ---- Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'snowGener' defined in class path resource [static/applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: workerId初始化异常！
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at com.alipay.sofa.sequence.start.SequenceApplication.main(SequenceApplication.java:34)
+Caused by: java.lang.IllegalStateException: workerId初始化异常！
+	at com.bank.sequence.service.impl.SnowflakeGenerateIdServiceImpl.init(SnowflakeGenerateIdServiceImpl.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1897)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1839)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767)
+	... 14 common frames omitted

@@ -1,0 +1,11 @@
+2021-03-14 15:54:45,732 INFO  Start building distributed resource ...
+2021-03-14 15:54:45,748 INFO  Register distributed resource [Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config,version=3.0]
+2021-03-14 15:54:45,751 INFO  Init instance id name from system param: Z43H586XPGAA
+2021-03-14 15:55:07,093 INFO  Init drm zone name to default: DEFAULT_ZONE
+2021-03-14 15:55:07,109 INFO  Register TR handler for drm resource [com.alipay.sofa.rpc.ldc.route.drm.config]
+2021-03-14 15:55:07,110 INFO  Register attribute [publishConfig]
+2021-03-14 15:55:07,116 INFO  Register attribute [routeConfig]
+2021-03-14 15:55:07,117 INFO  Register zdrmdata subscribers for [com.alipay.sofa.rpc.ldc.route.drm.config]
+2021-03-14 15:55:07,122 INFO  Subscribe attribute[Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config.publishConfig,version=3.0@DRM]
+2021-03-14 15:55:07,491 INFO  Subscribe attribute[Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config.routeConfig,version=3.0@DRM]
+2021-03-14 15:55:07,492 INFO  Register distributed resource [Alipay.sequence:name=com.alipay.sofa.rpc.ldc.route.drm.config,version=3.0] completed
