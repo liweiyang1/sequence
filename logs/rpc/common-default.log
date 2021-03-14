@@ -1,4 +1,60 @@
-2021-03-14 15:55:07,546 INFO  main                             - sofa rpc run.mode = NORMAL
-2021-03-14 15:55:07,547 INFO  main                             - PID:17308 sofa rpc starting!
-2021-03-14 15:55:07,549 INFO  main                             - the run.mode is NORMAL
-2021-03-14 15:55:07,557 INFO  main                             - the ldc run env is: zone is,zone=null,datacenter=null,zmode=false,strictMode=null
+2021-03-14 21:01:46,721 INFO  main                             - sofa rpc run_mode = NORMAL by default
+2021-03-14 21:01:46,721 INFO  main                             - PID:30016 sofa rpc starting!
+2021-03-14 21:01:46,722 INFO  main                             - the run.mode is NORMAL
+2021-03-14 21:01:46,726 INFO  main                             - the ldc run env is: zone is,zone=null,datacenter=null,zmode=null,strictMode=null
+2021-03-14 21:01:51,020 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.7.2_20200526145113, PID is:30016
+2021-03-14 21:01:51,032 INFO  main                             - Install Module: fault-tolerance
+2021-03-14 21:01:51,051 INFO  main                             - Install Module: sofaTracer-resteasy
+2021-03-14 21:01:51,054 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer has been override to class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer
+2021-03-14 21:01:51,061 INFO  main                             - The module lookout does not need to be loaded.
+2021-03-14 21:01:51,061 INFO  main                             - Install Module: sofaTracer
+2021-03-14 21:01:51,084 INFO  main                             - Refer consumer config : bolt://com.alipay.sofa.sequence.api.OrderSerialNoService:1.0.0 with bean id orderSerialNoService
+2021-03-14 21:01:51,093 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.client.Router with alias registry: class com.alipay.sofa.rpc.client.router.RegistryRouter has been override to class com.alipay.sofa.rpc.router.DsrRegistryRouter
+2021-03-14 21:01:51,115 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.filter.Filter with alias consumerTracer: class com.alipay.sofa.rpc.filter.sofatracer.ConsumerTracerFilter has been override to class com.alipay.sofa.rpc.filter.EnterpriseConsumerTracerFilter
+2021-03-14 21:01:51,118 WARN  main                             - Extension com.alipay.sofa.rpc.auth.AuthFilter of extensible com.alipay.sofa.rpc.filter.Filter is disabled, cause by: com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: java.lang.ClassNotFoundException: com.alipay.sofa.rpc.auth.AuthFilter		at com.alipay.sofa.rpc.common.utils.ClassUtils.forName(ClassUtils.java:59)		at com.alipay.sofa.rpc.ext.ExtensionLoader.readLine(ExtensionLoader.java:216)	
+2021-03-14 21:01:51,119 WARN  main                             - Extension com.alipay.sofa.rpc.filter.CustomParamFilter of extensible com.alipay.sofa.rpc.filter.Filter is disabled, cause by: com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: java.lang.ClassNotFoundException: com.alipay.sofa.rpc.filter.CustomParamFilter		at com.alipay.sofa.rpc.common.utils.ClassUtils.forName(ClassUtils.java:59)		at com.alipay.sofa.rpc.ext.ExtensionLoader.readLine(ExtensionLoader.java:216)	
+2021-03-14 21:01:51,188 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.MeshRegistry has been override to class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry
+2021-03-14 21:02:24,008 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.RedisSerialNoService:1.0.0:bolt with bean id redisSerialNoServiceImpl
+2021-03-14 21:02:24,009 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:02:24,016 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.server.Server with alias rest: class com.alipay.sofa.rpc.server.rest.RestServer has been override to class com.alipay.sofa.rpc.server.rest.EnterpriseRestServer
+2021-03-14 21:02:24,029 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.MessageSerialNoService:1.0.0:bolt with bean id messageSerialNoServiceImpl
+2021-03-14 21:02:24,029 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:02:24,035 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.OrderSerialNoService:1.0.0:bolt with bean id orderSerialNoServiceImpl
+2021-03-14 21:02:24,035 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:02:24,041 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.PrimaryKeyService:1.0.0:bolt with bean id primaryKeyServiceImpl
+2021-03-14 21:02:24,041 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:02:25,691 INFO  main                             - transmit will not start with config is null
+2021-03-14 21:02:26,572 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.RedisSerialNoService]; protocol[bolt]
+2021-03-14 21:02:26,573 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.PrimaryKeyService]; protocol[bolt]
+2021-03-14 21:02:26,573 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.MessageSerialNoService]; protocol[bolt]
+2021-03-14 21:02:26,573 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.OrderSerialNoService]; protocol[bolt]
+2021-03-14 21:02:50,968 INFO  main                             - sofa rpc run_mode = NORMAL by default
+2021-03-14 21:02:50,968 INFO  main                             - PID:4760 sofa rpc starting!
+2021-03-14 21:02:50,969 INFO  main                             - the run.mode is NORMAL
+2021-03-14 21:02:50,974 INFO  main                             - the ldc run env is: zone is,zone=null,datacenter=null,zmode=null,strictMode=null
+2021-03-14 21:03:20,504 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.7.2_20200526145113, PID is:4760
+2021-03-14 21:03:20,518 INFO  main                             - Install Module: fault-tolerance
+2021-03-14 21:03:20,537 INFO  main                             - Install Module: sofaTracer-resteasy
+2021-03-14 21:03:20,539 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.tracer.Tracer with alias sofaTracer: class com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer has been override to class com.alipay.sofa.rpc.tracer.log.sofatracer.EnterpriseRpcSofaTracer
+2021-03-14 21:03:20,550 INFO  main                             - The module lookout does not need to be loaded.
+2021-03-14 21:03:20,550 INFO  main                             - Install Module: sofaTracer
+2021-03-14 21:03:20,575 INFO  main                             - Refer consumer config : bolt://com.alipay.sofa.sequence.api.OrderSerialNoService:1.0.0 with bean id orderSerialNoService
+2021-03-14 21:03:20,584 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.client.Router with alias registry: class com.alipay.sofa.rpc.client.router.RegistryRouter has been override to class com.alipay.sofa.rpc.router.DsrRegistryRouter
+2021-03-14 21:03:20,609 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.filter.Filter with alias consumerTracer: class com.alipay.sofa.rpc.filter.sofatracer.ConsumerTracerFilter has been override to class com.alipay.sofa.rpc.filter.EnterpriseConsumerTracerFilter
+2021-03-14 21:03:20,614 WARN  main                             - Extension com.alipay.sofa.rpc.auth.AuthFilter of extensible com.alipay.sofa.rpc.filter.Filter is disabled, cause by: com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: java.lang.ClassNotFoundException: com.alipay.sofa.rpc.auth.AuthFilter		at com.alipay.sofa.rpc.common.utils.ClassUtils.forName(ClassUtils.java:59)		at com.alipay.sofa.rpc.ext.ExtensionLoader.readLine(ExtensionLoader.java:216)	
+2021-03-14 21:03:20,615 WARN  main                             - Extension com.alipay.sofa.rpc.filter.CustomParamFilter of extensible com.alipay.sofa.rpc.filter.Filter is disabled, cause by: com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: java.lang.ClassNotFoundException: com.alipay.sofa.rpc.filter.CustomParamFilter		at com.alipay.sofa.rpc.common.utils.ClassUtils.forName(ClassUtils.java:59)		at com.alipay.sofa.rpc.ext.ExtensionLoader.readLine(ExtensionLoader.java:216)	
+2021-03-14 21:03:20,676 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.registry.Registry with alias mesh: class com.alipay.sofa.rpc.registry.mesh.MeshRegistry has been override to class com.alipay.sofa.rpc.registry.mesh.EnterpriseMeshRegistry
+2021-03-14 21:03:53,496 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.RedisSerialNoService:1.0.0:bolt with bean id redisSerialNoServiceImpl
+2021-03-14 21:03:53,498 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:03:53,505 INFO  main                             - Extension of extensible com.alipay.sofa.rpc.server.Server with alias rest: class com.alipay.sofa.rpc.server.rest.RestServer has been override to class com.alipay.sofa.rpc.server.rest.EnterpriseRestServer
+2021-03-14 21:03:53,518 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.MessageSerialNoService:1.0.0:bolt with bean id messageSerialNoServiceImpl
+2021-03-14 21:03:53,518 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:03:53,524 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.OrderSerialNoService:1.0.0:bolt with bean id orderSerialNoServiceImpl
+2021-03-14 21:03:53,525 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:03:53,530 INFO  main                             - Export provider config : com.alipay.sofa.sequence.api.PrimaryKeyService:1.0.0:bolt with bean id primaryKeyServiceImpl
+2021-03-14 21:03:53,531 WARN  main                             - dynamic config is null, do not need load auth filter
+2021-03-14 21:03:55,251 INFO  main                             - transmit will not start with config is null
+2021-03-14 21:03:56,139 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.RedisSerialNoService]; protocol[bolt]
+2021-03-14 21:03:56,139 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.PrimaryKeyService]; protocol[bolt]
+2021-03-14 21:03:56,139 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.MessageSerialNoService]; protocol[bolt]
+2021-03-14 21:03:56,140 INFO  main                             - service published.  interfaceId[com.alipay.sofa.sequence.api.OrderSerialNoService]; protocol[bolt]

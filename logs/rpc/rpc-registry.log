@@ -1,0 +1,24 @@
+2021-03-14 21:02:26,553 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:02:26,556 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.RedisSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:02:26,572 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.RedisSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:02:26,572 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:02:26,572 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.PrimaryKeyService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:02:26,572 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.PrimaryKeyService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:02:26,573 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:02:26,573 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.MessageSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:02:26,573 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.MessageSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:02:26,573 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:02:26,573 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.OrderSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:02:26,573 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.OrderSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:03:56,131 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:03:56,133 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.RedisSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.RedisSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:03:56,139 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.PrimaryKeyService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.PrimaryKeyService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:03:56,139 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.MessageSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.MessageSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
+2021-03-14 21:03:56,139 WARN  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistryHelper - Virtual host is specified, host will be change from 0.0.0.0 to 172.32.132.77 when register
+2021-03-14 21:03:56,139 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000003: RPC 服务[com.alipay.sofa.sequence.api.OrderSerialNoService:1.0:1.0.0@DEFAULT]发布开始 
+2021-03-14 21:03:56,140 INFO  main                             com.alipay.sofa.rpc.registry.dsr.DsrRegistry - RPC-010000004: RPC 服务[com.alipay.sofa.sequence.api.OrderSerialNoService:1.0:1.0.0@DEFAULT]发布结束 
