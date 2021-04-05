@@ -1,2 +1,0 @@
-2021-03-14 21:02:25,724 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2021-03-14 21:03:55,289 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
